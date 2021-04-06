@@ -13,6 +13,7 @@
 		862D2C4926143CFF00848AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862D2C4726143CFF00848AE4 /* LaunchScreen.storyboard */; };
 		86AC341A2616A2DD004CCF0B /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC34192616A2DD004CCF0B /* ExploreViewController.swift */; };
 		86DBE03D2615660C00FE9401 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DBE03C2615660C00FE9401 /* Assets.xcassets */; };
+		86F9968F261A8CBD00CCCB8D /* RestaurantListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86F9968E261A8CBD00CCCB8D /* RestaurantListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		862D2C4A26143CFF00848AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86AC34192616A2DD004CCF0B /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
 		86DBE03C2615660C00FE9401 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86F9968E261A8CBD00CCCB8D /* RestaurantListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		862D2C3B26143CFE00848AE4 /* letEat1 */ = {
 			isa = PBXGroup;
 			children = (
+				86F9968D261A8C6F00CCCB8D /* Restaurants */,
 				86AC34182616A292004CCF0B /* Explore */,
 				86DBE03C2615660C00FE9401 /* Assets.xcassets */,
 				862D2C3C26143CFE00848AE4 /* AppDelegate.swift */,
@@ -73,6 +76,14 @@
 				86AC34192616A2DD004CCF0B /* ExploreViewController.swift */,
 			);
 			path = Explore;
+			sourceTree = "<group>";
+		};
+		86F9968D261A8C6F00CCCB8D /* Restaurants */ = {
+			isa = PBXGroup;
+			children = (
+				86F9968E261A8CBD00CCCB8D /* RestaurantListViewController.swift */,
+			);
+			path = Restaurants;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				862D2C3D26143CFE00848AE4 /* AppDelegate.swift in Sources */,
+				86F9968F261A8CBD00CCCB8D /* RestaurantListViewController.swift in Sources */,
 				862D2C3F26143CFE00848AE4 /* SceneDelegate.swift in Sources */,
 				86AC341A2616A2DD004CCF0B /* ExploreViewController.swift in Sources */,
 			);
