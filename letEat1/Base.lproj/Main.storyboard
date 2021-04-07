@@ -16,8 +16,19 @@
                     <view key="view" contentMode="scaleToFill" id="pzz-sl-y5N">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="S87-x2-wNr">
+                                <rect key="frame" x="0.0" y="44" width="375" height="574"/>
+                            </mapView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="ECk-Rw-HDO"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="S87-x2-wNr" firstAttribute="leading" secondItem="ECk-Rw-HDO" secondAttribute="leading" id="5YT-8S-eEi"/>
+                            <constraint firstItem="ECk-Rw-HDO" firstAttribute="bottom" secondItem="S87-x2-wNr" secondAttribute="bottom" id="AtY-mJ-Tj1"/>
+                            <constraint firstItem="ECk-Rw-HDO" firstAttribute="trailing" secondItem="S87-x2-wNr" secondAttribute="trailing" id="eQw-um-yNO"/>
+                            <constraint firstItem="S87-x2-wNr" firstAttribute="top" secondItem="ECk-Rw-HDO" secondAttribute="top" id="rKs-IG-xan"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="muv-SF-Lyv"/>
                 </viewController>
